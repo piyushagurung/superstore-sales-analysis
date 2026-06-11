@@ -7,7 +7,7 @@
 
 ## Why I Built This
 
-As someone pursuing a Business Analyst role, I wanted to go beyond theory and actually do what BAs do every day - take raw business data, ask the right questions, and turn the answers into decisions that matter.
+As someone pursuing a Business Analyst, I wanted to go beyond theory and actually do what BAs do every day - take raw business data, ask the right questions, and turn the answers into decisions that matter.
 
 I picked a retail sales dataset covering 4 years of transactions and treated it like a real client engagement. I didn't just query the data - I built a business story around it: where is this company making money, where is it losing money, and what should leadership do about it?
 
@@ -27,7 +27,6 @@ My job was to find out where, why, and what to do about it.
 |------|--------------|
 | SQL (SQLite - DB Browser) | Wrote 8 queries to extract insights from 9,994 rows of raw data |
 | Microsoft Excel | Built a dashboard with KPI summary, charts and loss analysis |
-| Python (pandas) | Validated query results and calculated aggregations |
 
 ---
 
@@ -132,14 +131,18 @@ I wrote 8 queries to answer 8 specific business questions:
 
 All queries are in `sales_queries.sql` - each one includes a comment explaining the business question it answers.
 
+---
+
 ## Repository Structure
 
+```
 superstore-sales-analysis/
 ├── superstore_full.csv       <- Raw dataset (9,994 records)
 ├── sales_queries.sql         <- All 8 SQL queries with business context
 ├── sales_dashboard.xlsx      <- Excel dashboard with charts and KPI summary
 ├── dashboard.png             <- Dashboard screenshot
 └── README.md
+```
 
 ---
 
@@ -151,6 +154,4 @@ That's what this project is about.
 
 ---
 
-*Business Analyst Portfolio - Tools: SQL - Excel - Python*
-
----
+*Business Analyst Portfolio - Tools: SQL - Excel*
