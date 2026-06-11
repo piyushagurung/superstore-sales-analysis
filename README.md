@@ -154,5 +154,3 @@ That's what this project is about.
 *Business Analyst Portfolio - Tools: SQL - Excel - Python*
 
 ---
-
-## Repository Structure
